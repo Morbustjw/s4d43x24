@@ -1,0 +1,12 @@
+managed; // implementation in class zbp_i_24_flight unique;
+
+define behavior for ZI_24_Flight //alias <alias_name>
+//persistent table <???>
+//lock master
+//authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+}

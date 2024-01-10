@@ -1,0 +1,10 @@
+@EndUserText.label: 'Flight'
+@MappingRole: true
+define role ZC_24_FLIGHT {
+    grant
+        select
+            on
+                ZC_24_FLIGHT
+                where  inheriting conditions from entity  ZI_24_Flight
+                        
+}
